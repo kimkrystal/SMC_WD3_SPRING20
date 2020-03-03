@@ -7,21 +7,39 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
 
     <title>Bootstrap Grid and Navigation HW Assignment </title>
 
     <style>
         .navbar-brand img {
-            max-width: 100px;
+          max-width: 100px;
         }
+
         .navbar {
-      background-color: #A0D3D9;
-      font-size: 1.25em;
-    }
+          background-color: rgb(75, 14, 116);
+          font-size: 1.25em;
+        }
 
         .container img{
           width: 100%;
         }
+
+        p {
+          margin: 0;
+          font-family: 'Poppins', sans-serif;
+          color: white;
+          font-size: 1.2em;
+          padding: .5em;
+          text-align: center;
+          }
+
+          .celebrating{
+            background-color: rgb(75, 14, 116);
+          }
+    
 
 
     </style>
@@ -39,20 +57,20 @@
 
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link text-primary" href="#">Home</a>
+              <a class="nav-link text-warning" href="#">Home</a>
             </li>
 
             <li class="nav-item ">
-                <a class="nav-link text-primary" href="#">About</a>
+                <a class="nav-link text-warning" href="#">About</a>
             </li>
             
             <li class="nav-item ">
-                <a class="nav-link text-primary" href="#">Projects</a>
+                <a class="nav-link text-warning" href="#">Projects</a>
             </li>
 
 
             <li class="nav-item">
-              <a class="nav-link text-primary" href="#">Contact</a>
+              <a class="nav-link text-warning" href="#">Contact</a>
             </li>
          
         
@@ -63,23 +81,20 @@
       <!--simple grid structure -->
     <div class = "container">
         <div class = "row">
-            <div class = "col-md-6 bg-primary"><img src="images/kobe-dunk.jpg" alt="Kobe Bryant mid air dunk.">
-                Column 1 of 6
+            <div class = "col-md-6 bg-warning dunk"><img src="images/kobe-dunk.jpg" alt="Kobe Bryant mid air dunk.">
             </div>
             <div class = "col-md-6 bg-warning">
-                Column 2 of 6
+              <p>"The most important thing is to try and inspire people so that they can be great in whatever they want to do." — Kobe Bryant</p>
             </div>
-            <div class = "col-md-6 bg-secondary">
-                Column 3 of 6
+            <div class = "col-md-6 celebrating"><img src="images/kobe-winning.jpg" alt="Kobe Bryant celebrating in the crowd with confetti.">
             </div>
-            <div class = "col-md-6 bg-info"><img src="images/kobe-winning.jpg" alt="Kobe Bryant celebrating in the crowd with confetti.">
-                Column 4 of 6
+            <div class = "col-md-6 celebrating">
+              <p>Bryant won five NBA championships, 18-time All-Star, 15-time member of the All-NBA Team, 12-time member of the All-Defensive Team, 2008 NBA MVP, two-time NBA Finals MVP winner during his 20 years as a Laker.</p>
             </div>
-            <div class = " col-md-6 bg-info"><img src="images/kobe-trophies.jpg" alt="Kobe Bryant with 5 championship trophies">
-                Column 5 of 6
+            <div class = " col-md-6 bg-warning champion"><img src="images/kobe-trophies.jpg" alt="Kobe Bryant with 5 championship trophies">
             </div>
-            <div class = "col-md-6 bg-info">
-                Column 6 of 6
+            <div class = "col-md-6 bg-warning">
+                <p>"Great things come from hard work and perseverance. No excuses." — Kobe Bryant</p>
             </div>
         </div>
     </div>
