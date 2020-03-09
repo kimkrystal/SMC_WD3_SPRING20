@@ -17,15 +17,63 @@
         background-size: cover;
         background-position: center;
     }
+    .navbar-brand img {
+          max-width: 200px;
+        }
+
+    .nav-link img{
+        max-width: 100px;
+    }
 </style>
+
+
 <body>
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> 
+        <img src ="images/cafePersonaLogo_white.png" alt= "Cafe Persona Logo" />
+    </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"> 
+                <img src ="images/instagramiconwhite.png" href="#" alt= "Instagram Logo Icon"/>
+                </a>
+            </li>
+
+            <li class="nav-item ">
+                <a class="nav-link" href="#"> 
+                <img src ="images/facebookiconwhite.png" href="#" alt= "Facebook Logo Icon"/>
+                </a>
+            </li>
+            
+            <li class="nav-item ">
+                <a class="nav-link" href="#"> 
+                    <img src ="images/yelpiconwhite.png" href="#" alt= "Yelp Logo Icon"/>
+                    </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">Contact</a>
+            </li>
+         
+        
+          </ul>
+         
+        </div>
+      </nav>
+
     <div class="jumbotron jumbotron-fluid" style= "background-image: url(file:///Users/macbookuser/Desktop/SMC_WD3_Spring20/Week%203%20HW/images/threecoffee.jpg);">
         <div class="container">
-            <h1 class="display-4 text-light">Cafe Persona</h1>
+            <h1 class="display-4 text-light">Join Coffee Subscriptions</h1>
             <p class="lead text-warning">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
             <hr class="my-4 border-danger">
-            <p class= "text-warning bg-light">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Shop Subscriptions</a>
         </div>
     </div>
 
