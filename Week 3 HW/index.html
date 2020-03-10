@@ -11,7 +11,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap" rel="stylesheet">
    
     <title>Week 3 HW Assignment- Jumbotron and Featurettes</title>
 </head>
@@ -20,6 +20,8 @@
     h1{
         font-family: 'Playfair Display', serif;
         text-shadow: 2px 2px 8px #000000;
+        color:rgb(2, 173, 136);
+        
     }
 
     h3{
@@ -27,7 +29,11 @@
     }
 
     h2, p{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h2{
+       color: rgb(2, 173, 136);
     }
     
     .subheader{
@@ -39,17 +45,17 @@
         background-repeat: no-repeat;
     }
 
-    .navbar-brand img {
-        max-width: 90px;
+    .navbar-toggler img {
+        max-width: 50px;
     }
 
     .nav-link img {
         max-width: 50px;
     }
 
-    .table{
+    /* .table{
         margin-bottom: 100px;
-    }
+    } */
 </style>
 
 
@@ -60,7 +66,7 @@
         style="background-image: url(https://d1ralsognjng37.cloudfront.net/3d508eba-1063-4a5d-a36b-97cddb5d4100.jpeg);">
         <div class="container">
             <h1 class="display-4 text-light" style="font-size: 70px; padding: 2% 0% 3% 0;">Bloom & Plume Coffee</h1>
-            <p class="lead subheader text-warning">Here to Serve the People</p>
+            <p class="lead subheader text-warning">Thirst Come, Thirst Served</p>
             <hr class="my-4 border-white">
             <a class="btn btn-default btn-transparent btn-lg border-white text-white" href="#" role="button">VIEW MENU</a>
         </div>
@@ -72,7 +78,7 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">Daily Specials. <span class="text-muted">100% Delicious.</span></h2>
+                <h2 class="featurette-heading">Daily Specials. <span style="color:rgb(97, 70, 255);">100% Delicious.</span></h2>
                 <p class="lead">Crema cinnamon caffeine dark con panna dark sweet galão mocha. Caramelization bar, caffeine, decaffeinated, white macchiato arabica and aromatic acerbic flavour.</p>
             </div>
             <div class="col-md-4">
@@ -88,7 +94,7 @@
 
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Our Specialties.  <span class="text-muted">Thirst Come, thirst served.</span></h2>
+                <h2 class="featurette-heading">Our Specialties.  <span class="text-muted">Here to Serve the People</span></h2>
                 <p class="lead">Instant con panna café au lait filter mazagran white grinder body aroma grounds. Half and half milk a, skinny, espresso ut coffee lungo carajillo body.</p>
             </div>
             <div class="col-md-5 order-md-1">
@@ -127,52 +133,47 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Drank Ministry</th>
+                    <th scope="col">Prices</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>The Drip</td>
+                    <td>$3.50</td>
                 </tr>
                 <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+
+                    <td>Macchiato</td>
+                    <td>$4.00</td>
                 </tr>
                 <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+
+                    <td>Latte</td>
+                    <td>$4.00</td>
                 </tr>
             </tbody>
         </table>
         <!-- /END TABLE -->
     </div>
 
+    <!-- Promo Image 1 -->
+    <img class="img-fluid" src ="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/52602258_369511086975717_4678684132400693248_o.jpg?_nc_cat=104&_nc_sid=6e5ad9&_nc_ohc=j8zrFeE7ppwAX-wn_lE&_nc_ht=scontent-lax3-1.xx&oh=97b03dd4ffa3fd5da5532517e4402579&oe=5E956488" alt="Bloom & Plume logo with flowers"/>
+    
+</div>
         <!-- START NAV -->
-    <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="assets/bloomplumelogocolor.png" alt="Bloom & Plume Logo" />
-        </a> -->
+    <nav class="navbar fixed-bottom navbar-info bg-info">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span><img src="assets/bloomplumelogocolor.png"  alt="Bloom & Plume Logo"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav mx-auto">
-                <a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">ABOUT</a>
-                <a class="nav-item nav-link " href="#">MENU</a>
-                <a class="nav-item nav-link " href="#">LOCATIONS</a>
+                <a class="nav-item nav-link text-white active" href="#">HOME</a>
+                <a class="nav-item nav-link text-white" href="#">ABOUT</a>
+                <a class="nav-item nav-link text-white" href="#">MENU</a>
+                <a class="nav-item nav-link text-white " href="#">LOCATIONS</a>
             </div>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
