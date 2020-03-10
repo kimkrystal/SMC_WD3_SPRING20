@@ -12,120 +12,170 @@
 
     <title>Week 3 HW Assignment- Jumbotron and Featurettes</title>
 </head>
+
 <style>
-    .jumbotron{
+    .jumbotron {
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
     }
-    .navbar-brand img {
-          max-width: 200px;
-        }
 
-    .nav-link img{
-        max-width: 100px;
+    .navbar-brand img {
+        max-width: 90px;
+    }
+
+    .nav-link img {
+        max-width: 50px;
     }
 </style>
 
 
 <body>
-    <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"> 
-        <img src ="images/cafePersonaLogo_white.png" alt= "Cafe Persona Logo" />
-    </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
 
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#"> 
-                <img src ="images/instagramiconwhite.png" href="#" alt= "Instagram Logo Icon"/>
-                </a>
-            </li>
-
-            <li class="nav-item ">
-                <a class="nav-link" href="#"> 
-                <img src ="images/facebookiconwhite.png" href="#" alt= "Facebook Logo Icon"/>
-                </a>
-            </li>
-            
-            <li class="nav-item ">
-                <a class="nav-link" href="#"> 
-                    <img src ="images/yelpiconwhite.png" href="#" alt= "Yelp Logo Icon"/>
-                    </a>
-            </li>
-
-
-            <li class="nav-item">
-              <a class="nav-link text-warning" href="#">Contact</a>
-            </li>
-         
-        
-          </ul>
-         
-        </div>
-      </nav>
-
-    <div class="jumbotron jumbotron-fluid" style= "background-image: url(https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/52602258_369511086975717_4678684132400693248_o.jpg?_nc_cat=104&_nc_sid=6e5ad9&_nc_ohc=j8zrFeE7ppwAX_gABTO&_nc_ht=scontent-lax3-1.xx&oh=4ee110ac51e58ad995a3795e18bdf84a&oe=5E956488);">
+    <div class="jumbotron jumbotron-fluid"
+        style="background-image: url(https://d1ralsognjng37.cloudfront.net/3d508eba-1063-4a5d-a36b-97cddb5d4100.jpeg);">
         <div class="container">
-            <h1 class="display-4 text-light">Join Coffee Subscriptions</h1>
-            <p class="lead text-warning">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4 text-light">Bloom & Plume Coffee</h1>
+            <p class="lead text-warning">Here to Serve the People</p>
+            <p class="text-warning bg-light">Thirst Come Thirst Served</p>
             <hr class="my-4 border-danger">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Shop Subscriptions</a>
+            <a class="btn btn-primary btn-lg" href="#" role="button">VIEW MENU</a>
         </div>
     </div>
 
     <div class="container">
         <!-- START THE FEATURETTES -->
-        
         <hr class="featurette-divider">
-        
+
         <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-4">
-              <picture>
-                  <source media="(min-width: 1200px)" srcset="assets/Scared_Girl_500.jpg">
-                  <source media="(min-width: 768px)" srcset="assets/Scared_Girl_370.jpg">
-                  <img src ="assets/Scared_Girl_500.jpg" alt= "Scared girl!">
-              </picture>
-          </div>
-        </div>
-        
-        <hr class="featurette-divider">
-        
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-        
-        <hr class="featurette-divider">
-        
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-        
-        <hr class="featurette-divider">
-        
-        <!-- /END THE FEATURETTES -->
-        
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Daily Specials <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">Crema cinnamon caffeine dark con panna dark sweet galão mocha. Caramelization bar, caffeine, decaffeinated, white macchiato arabica and aromatic acerbic flavour.</p>
             </div>
-        
+            <div class="col-md-4">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="assets/matcha_375.jpg">
+                    <source media="(min-width: 768px)" srcset="assets/matcha_500.jpg">
+                    <img src="assets/matcha_500.jpg" alt="Display of food and drinks">
+                </picture>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Daily Specials <span class="text-muted">See for
+                        yourself.</span></h2>
+                <p class="lead">Instant con panna café au lait filter mazagran white grinder body aroma grounds. Half and half milk a, skinny, espresso ut coffee lungo carajillo body.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                ​<picture>
+                    <source media="(min-width: 1200px)" srcset="assets/matcha_375.jpg">
+                    <source media="(min-width: 768px)" srcset="assets/matcha_500.jpg">
+                    <img src="assets/matcha_500.jpg" alt="Display of food and drinks">
+                </picture>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Front Case Offerings <span class="text-muted">Checkmate.</span></h2>
+                <p class="lead">Filter, foam, extra so, eu, con panna, body flavour whipped mocha french press milk. Beans sit dark redeye espresso café au lait percolator dripper.</p>
+            </div>
+            <div class="col-md-5">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="assets/matcha_375.jpg">
+                    <source media="(min-width: 768px)" srcset="assets/matcha_500.jpg">
+                    <img src="assets/matcha_500.jpg" alt="Display of food and drinks">
+                </picture>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+    </div>
+
+    <div class="container">
+        <!-- START TABLE -->
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- /END TABLE -->
+    </div>
+
+        <!-- START NAV -->
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="assets/bloomplumelogocolor.png" alt="Bloom & Plume Logo" />
+        </a> -->
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <img src="assets/instagramiconwhite.png" href="#" alt="Instagram Logo Icon" />
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">
+                            <img src="assets/facebookiconwhite.png" href="#" alt="Facebook Logo Icon" />
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">
+                            <img src="assets/yelpiconwhite.png" href="#" alt="Yelp Logo Icon" />
+                        </a>
+                    </li>
+
+
+    
+                </ul>
+            </div>
+        </nav>
+
+    <!-- /END NAV -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
