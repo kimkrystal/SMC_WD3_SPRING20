@@ -9,11 +9,30 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
+   
     <title>Week 3 HW Assignment- Jumbotron and Featurettes</title>
 </head>
 
 <style>
+    h1{
+        font-family: 'Playfair Display', serif;
+        text-shadow: 2px 2px 8px #000000;
+    }
+
+    h3{
+        font-family: 'Playfair Display', serif;
+    }
+
+    h2, p{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .subheader{
+        text-shadow: 2px 2px 8px #000000;
+    }
     .jumbotron {
         background-size: cover;
         background-position: center;
@@ -40,10 +59,10 @@
     <div class="jumbotron jumbotron-fluid"
         style="background-image: url(https://d1ralsognjng37.cloudfront.net/3d508eba-1063-4a5d-a36b-97cddb5d4100.jpeg);">
         <div class="container">
-            <h1 class="display-4 text-light">Bloom & Plume Coffee</h1>
-            <p class="lead text-white">Here to Serve the People</p>
-            <hr class="my-4 border-danger">
-            <a class="btn btn-default btn-transparent btn-lg text-white" href="#" role="button">VIEW MENU</a>
+            <h1 class="display-4 text-light" style="font-size: 70px; padding: 2% 0% 3% 0;">Bloom & Plume Coffee</h1>
+            <p class="lead subheader text-warning">Here to Serve the People</p>
+            <hr class="my-4 border-white">
+            <a class="btn btn-default btn-transparent btn-lg border-white text-white" href="#" role="button">VIEW MENU</a>
         </div>
     </div>
 
@@ -60,7 +79,7 @@
                 <picture>
                     <source media="(min-width: 1200px)" srcset="assets/sandwich_500.jpg">
                     <source media="(min-width: 768px)" srcset="assets/sandwich_375.jpg">
-                    <img src="assets/sandwich_500.jpg" alt="Avocado toast with tomatoes displayed">
+                    <img src="assets/sandwich_375.jpg" alt="Avocado toast with tomatoes displayed">
                 </picture>
             </div>
         </div>
@@ -76,7 +95,7 @@
                 ​<picture>
                     <source media="(min-width: 1200px)" srcset="assets/drinks_500.jpg">
                     <source media="(min-width: 768px)" srcset="assets/drinks_375.jpg">
-                    <img src="assets/drinks_500.jpg" alt="Display of 2 different coffee cups">
+                    <img src="assets/drinks_375.jpg" alt="Display of 2 different coffee cups">
                 </picture>
             </div>
         </div>
@@ -92,7 +111,7 @@
                 <picture>
                     <source media="(min-width: 1200px)" srcset="assets/matcha_500.jpg">
                     <source media="(min-width: 768px)" srcset="assets/matcha_375.jpg">
-                    <img src="assets/matcha_500.jpg" alt="Display of food and drinks">
+                    <img src="assets/matcha_375.jpg" alt="Display of food and drinks">
                 </picture>
             </div>
         </div>
@@ -104,7 +123,7 @@
 
     <div class="container">
         <!-- START TABLE -->
-
+        <h3 style="font-size: 50px; text-align: center; padding: 2% 0% 3% 0;">Menu</h3>
         <table class="table table-striped">
             <thead>
                 <tr>
