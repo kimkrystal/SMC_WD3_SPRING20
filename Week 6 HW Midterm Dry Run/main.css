@@ -1,0 +1,43 @@
+
+.navbar-brand img {
+    max-width: 300px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px; 
+    padding: 2% 0% 3% 0;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+ p, body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.carousel-caption{
+    transform: translateY(-70%);
+    bottom: 0;
+    top: 60%;
+}
+.jumbotron {
+    background-image: url(assets/jumbotron.jpg);
+    background-color: #ffca3a;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption {
+        transform: translateY(-70%);
+        bottom: 0;
+        top: 60%;
+    }
+
+    .navbar-brand img {
+        max-width: 250px;
+    }
