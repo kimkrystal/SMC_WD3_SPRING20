@@ -7,13 +7,23 @@
 
 h1{
     font-family: 'Raleway', sans-serif;
-    font-size: 50px; 
     padding: 2% 0% 3% 0;
     text-shadow: 2px 2px 8px #000000;
 }
-
- p, body{
+h2, h3{
+    font-size: 2rem;
     font-family: 'Raleway', sans-serif;
+}
+
+ p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+
+.h4,
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
 }
 
 .carousel-caption{
@@ -27,6 +37,7 @@ h1{
 }
 /* END NAVBAR */
 
+
 /* JUMBOTRON */
 .jumbotron {
     background-image: url(assets/jumbotron.jpg);
@@ -36,12 +47,13 @@ h1{
     /* background-attachment: fixed; */
 }
 .team {
-    background-image: url(assets/together2.jpg);
+    background-image: url(assets/team.jpg);
     background-color: #ffca3a;
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
 }
+
 
 @media screen and (max-width: 768px) {
     h1 {
