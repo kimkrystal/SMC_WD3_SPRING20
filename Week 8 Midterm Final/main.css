@@ -4,17 +4,27 @@
 .navbar-brand img {
     max-width: 300px;
 }
+a.active {
+    color: #ffca3a;
+
+}
+a:hover:not(.active) {
+    color: #ffca3a;
+}
 
 h1{
     font-family: 'Raleway', sans-serif;
     padding: 2% 0% 3% 0;
     text-shadow: 2px 2px 8px #000000;
 }
-h2, h3{
+h2{
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
 }
-
+h3{
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+}
  p{
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
@@ -23,7 +33,7 @@ h2, h3{
 .h4,
 h4 {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1rem;
 }
 
 .carousel-caption{
@@ -63,7 +73,36 @@ h4 {
     background-position: center;
     /* background-attachment: fixed; */
 }
+/* FOOTER */
+#instagram {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: right;
+    background-image: url(assets/instagramiconwhite.png);
+    display: inline-block;
+}
 
+#facebook {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: right;
+    background-image: url(assets/facebookiconwhite.png);
+    display: inline-block;
+    
+}
+.socialmedia {
+    padding-top: 20px;
+}
+
+
+/* MODAL */
+
+.subscribe{
+    margin-top:20px;
+margin-bottom:20px;
+}
 
 @media screen and (max-width: 768px) {
     h1 {
