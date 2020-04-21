@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap');
 
+/* NAVBAR */
 .navbar-brand img {
     max-width: 300px;
 }
@@ -23,9 +25,18 @@ h1{
 .featurette-heading .text {
     color: #ffca3a;
 }
+/* END NAVBAR */
 
+/* JUMBOTRON */
 .jumbotron {
     background-image: url(assets/jumbotron.jpg);
+    background-color: #ffca3a;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.team {
+    background-image: url(assets/together2.jpg);
     background-color: #ffca3a;
     background-size: cover;
     background-position: center;
