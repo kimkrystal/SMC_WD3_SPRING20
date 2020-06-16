@@ -13,36 +13,76 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap" rel="stylesheet">
 
-    <!-- STYLESHEET-->
-    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <!-- FONT AWESOME -->
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
 
-    <title>MAIN HAWTHORN WORKS</title>
+    <!-- STYLESHEET-->
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
+
+    <title>Big Ben Car Wash</title>
 </head>
 
 <body>
     <header>
-        <!-- NAVBAR START -->
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/logo.png" alt="Main Hawthorn Works Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- START NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- NAVBAR LINKS -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="navbar-nav ml-auto">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="nav-item nav-link active" href="index.html">HOME</a></li>
-                        <li><a class="nav-item nav-link" href="about.html">ABOUT</a></li>
-                        <li><a class="nav-item nav-link" href="products.html">PRODUCTS</a></li>
-                        <li><a class="nav-item nav-link" href="team.html">TEAM</a></li>
-                    </ul>
-                </div>
+            <a class="navbar-brand d-lg-none" href="index.html"><img src="BigBenLogo.png" class="" alt="BigBenlogo"></a>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+
+                        <a class="nav-link" href="membership.html">MEMBERSHIP</a>
+                    </li>
+                    <li class="nav-item dropdown show">
+                        <a class="nav-link dropdown-toggle d-flex" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="true">SERVICES
+                            <i class="fas fa-caret-down ml-auto p-2 d-lg-none"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="express.html">EXPRESS WASHES</a>
+                            <a class="dropdown-item" href="fullservice.html">FULL SERVICE</a>
+                            <a class="dropdown-item" href="products.html">ACCESSORIES</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link" href="about.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link" href="products.html">SHOP</a>
+                    </li>
+                    <li class="nav-item d-lg-none"><a href="cart.html"><i class="fa fa-shopping-cart d-lg-none position-relative"><spanclass="cart-badge">0</span></i></a></li>
+
+                </ul>
+
+                <!-- LARGE SCREEN: CHECKOUT BAG -->
+                <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="BigBenLogo.png"
+                        alt="BigBenLogo"></a>
+
+                <ul class="navbar-nav d-none d-lg-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">SHOP</a>
+                    </li>
+                    <li class="nav-item align-self-center position-relative">
+                        <a href="cart.html"><i class="fas fa-shopping-cart"></i><span
+                                class="cart-badge">0</span></i></a>
+
+                    </li>
+                </ul>
             </div>
         </nav>
+        <!-- /END NAVBAR -->
     </header>
 
     <main>
@@ -62,54 +102,61 @@
 
                     <div class="row featurette">
                         <div class="col-md-7">
-                            <h2 class="featurette-heading">Live. Work. <span class="text">Thrive. </span></h2>
-                <p class="lead">Our mission is to be an indispensable resource to our customers by listening, learning and providing exceptional value, every time. If you ever have a concern, we will make every effort to resolve it to your satisfaction, as your satisfaction is our greatest measure of success.</p>
-            </div>
-            <div class="col-md-5">
-                <picture>
-                    <source media="(min-width: 1200px)" srcset="assets/featurette5_500.jpg">
-                        <source media="(min-width: 768px)" srcset="assets/featurette5_370.jpg">
-                    <img src="assets/featurette5_370.jpg" alt="Man on phone in front of his standing desk in sunny home office.">
-                </picture>
-            </div>
-        </div>
+                            <h2 class="featurette-heading">OPEN <span class="text">DAILY! </span></h2>
+                            <br>
+                            <p><strong>MONDAY - SUNDAY: </strong><br> 7AM-7PM <br>
 
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-6 order-md-2">
-                <h2 class="featurette-heading">Furniture that <span class="text">flexes with you</span></h2>
-                <p class="lead">When you pivot your thinking from furniture rental to furniture as a service, you’ll understand the holistic approach we take to transforming your space based on your needs. From enterprise-level corporations to scrappy start-ups, furniture rental helps you flex towards your goals without the fixed costs.</p>
-            </div>
-            <div class="col-md-6 order-md-1">
-                ​<picture>
-                    <source media="(min-width: 1200px)" srcset="assets/featurette4_500.jpg">
-                        <source media="(min-width: 768px)" srcset="assets/featurette4_370.jpg">
-                    <img src="assets/featurette4_370.jpg" alt="Converter for standing desk.">
-                </picture>
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Business success is <span class="text">one click away</span></h2>
-                            <p class="lead">When your needs change, we can swap or pick up your furniture. Keep your
-                                style fresh and focus on more important things than your sofa. When your situation
-                                changes, embrace life's opportunities without letting furniture weigh you down.</p>
+                                <p>16490 PARAMOUNT BLVD <br>PARAMOUNT, CA 90723</p>
+                                <p>(562) 531-3484</p>
+                                <p><a class="email" href="mailto:ash@CHITCHATLA.COM">BIGBENEXPRESS@GMAIL.COM</a></p>
                         </div>
                         <div class="col-md-5">
                             <picture>
-                                <source media="(min-width: 1200px)" srcset="assets/featurette6_500.jpg">
-                                <source media="(min-width: 768px)" srcset="assets/featurette6_370.jpg">
-                                <img src="assets/featurette6_370.jpg"
-                                    alt="Woman with headset on sitting at her desk at home.">
+                                <source media="(min-width: 1200px)" srcset="assets/featurette5_500.jpg">
+                                <source media="(min-width: 768px)" srcset="assets/featurette5_370.jpg">
+                                <div class="googleMap">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.2244408475403!2d-118.16181318478323!3d33.88387308065215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ccd552c76ec5%3A0x9a17cc8a0dba0b7!2sBig%20Ben%20Express%20Car%20Wash!5e0!3m2!1sen!2sus!4v1592273401182!5m2!1sen!2sus"
+                                        width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                        aria-hidden="false" tabindex="0"></iframe>
+                                </div>
                             </picture>
                         </div>
                     </div>
 
                     <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-6 order-md-2">
+                            <h2 class="featurette-heading">Want talk to us? <span class="text">Reach out!</span></h2>
+                            <br>
+                            <p>Have questions? Need a wash?<br>Feel free to give us a call, visit our location, or fill out the form below to send us an email! </p>
+                          
+                          
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <div class="form">
+                            </div>
+                            ​<form action="login.php" method="POST">
+                                <fieldset>
+                                    <label for="UserName">YOUR NAME:</label>
+                                    <input id="UserName" type="text" name="username" autocomplete="off">
+
+                                    <label for="EmailAddress">EMAIL ADDRESS:</label>
+                                    <input id="EmailAddress" type="email" name="emailaddress">
+
+
+                                    <label id="Message">CHAT WITH US:</label>
+                                    <textarea id="Message" name="message"></textarea>
+                                </fieldset>
+                                <input type="submit" name="form submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+
 
                     <!-- /END THE FEATURETTES -->
                 </div>
@@ -117,19 +164,12 @@
         </div>
     </main>
     <footer>
-        <div class="container-fluid text-center bg-warning">
+        <div class="container-fluid text-center bg-light">
             <div class="row">
                 <div class="col">
                     <p class="pt-2 mb-0"><a href="#">Back to top</a></p>
-                    <div class="socialmedia">
-                        <a href="#">
-                            <div id="instagram"></div>
-                        </a>
-                        <a href="#">
-                            <div id="facebook"></div>
-                        </a>
-                    </div>
-                    <h4>© MAIN HAWTHORN WORKS | ALL RIGHTS RESERVED</h4>
+                    <h4>OPEN DAILY 7AM-7PM. 16490 PARAMOUNT BLVD, PARAMOUNT, CA 90723</h4>
+                    <h5>© Big Ben Express Car Wash| ALL RIGHTS RESERVED</h5>
                 </div>
             </div>
         </div>
@@ -146,7 +186,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

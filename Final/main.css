@@ -1,51 +1,124 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Passion+One:wght@400;700&display=swap');
 
-/* START NAVBAR */
-.navbar-brand img {
-    max-width: 180px;
-}
-a.active {
-    color: #ffca3a;
 
-}
-a:hover:not(.active) {
-    color: #ffca3a;
-}
-
-h1{
-    font-family: 'Raleway', sans-serif;
-    padding: 2% 0% 3% 0;
+h1 {
+    font-size: 5.5rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.4px;
+    font-weight: 800;
+    padding: 5% 0% 3% 0;
     text-shadow: 2px 2px 8px #000000;
+    color: #ffca3a;
 }
-h2{
+
+.h2,
+h2 {
     font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-h3{
+
+.h3,
+h3 {
     font-size: 1.6rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
- p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.4rem;
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
 }
 
 .h4,
 h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
-a {
-    color: #0d0106;
-    text-decoration: none;
+
+.h5,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
 }
 
-a:hover {
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: #0d0106;
+    text-decoration: none;
+    font-weight: 600;
+    color: #1b7eff;
+    letter-spacing: 1px;
+}
+
+a.btn {
+    padding: 10px;
+}
+
+/* a:hover {
     color: #d92929;
     text-decoration: none;
 }
 
-.fa, .fas {
+a.active {
+    color: #ffca3a;
+
+}
+
+a:hover:not(.active) {
+    color: #ffca3a;
+} */
+
+.row {
+    margin: 0px;
+}
+
+/* NAVBAR */
+.navbar-brand img {
+    max-width: 130px;
+}
+
+.navbar-brand {
+    margin: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link {
+    color: #0d0106;
+    font-size: .9em;
+    letter-spacing: 1.5px;
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ee4444;
+    font-size: .9em;
+    letter-spacing: 1.5px;
+    align-items: center;
+}
+/* NAV LINK ANIMATION */
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#fec400;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
+
+.nav-link{padding:15px 5px;transition:0.2s;}
+
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* .bg-light {
+    background-color: #ffca3a;
+} */
+
+.dropdown-menu {
+    border: 0px;
+}
+
+.fa,
+.fas {
     color: #0d0106;
 }
 
@@ -53,83 +126,217 @@ a:hover {
     font-size: 1.5rem;
 }
 
-.cart-badge{
+.cart-badge {
     position: absolute;
     top: 1px;
     left: 12px;
     color: #fff;
-    font-weight: 800;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem;
 }
+
 /* END NAVBAR */
 
-.carousel-caption{
-    transform: translateY(-70%);
+.carousel-caption {
+    transform: translateY(-90%);
     bottom: 0;
     top: 60%;
 }
 
+.caption2 {
+    margin-top: 20px;
+}
+
+
 .featurette-heading .text {
+    font-family: 'Montserrat', sans-serif;
     color: #ffca3a;
 }
-/* END NAVBAR */
 
-.btn-group-lg .subscribe{
+
+.btn-group-lg .subscribe {
     padding-bottom: 1rem;
 }
 
 /* JUMBOTRON */
 .about {
-    background-image: url(assets/about.jpg);
-    background-color: #ffca3a;
+    background-image: url(assets/thumbsup.jpg);
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
-}
-.products {
-    background-image: url(assets/jumbotron.jpg);
-    background-color: #ffca3a;
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
-}
-.team {
-    background-image: url(assets/team.jpg);
-    background-color: #ffca3a;
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
-}
-/* FOOTER */
-#instagram {
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-    background-position: right;
-    background-image: url(assets/instagramiconwhite.png);
-    display: inline-block;
+    font-size: 5.5rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.4px;
+    font-weight: 800;
+    padding: 5% 0% 3% 0;
+    text-shadow: 2px 2px 8px #000000;
+
 }
 
-#facebook {
-    width: 30px;
-    height: 30px;
+/* background-attachment: fixed; */
+
+.products {
+    background-image: url(assets/jumbotron.jpg);
     background-size: cover;
-    background-position: right;
-    background-image: url(assets/facebookiconwhite.png);
-    display: inline-block;
-    
+    background-position: center;
+    /* background-attachment: fixed; */
 }
-.socialmedia {
-    padding-top: 20px;
+
+.membership {
+    background-image: url(assets/waterdrops.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
 }
+
+/* CARD START */
+.card {
+    border: none;
+    margin: 15px;
+}
+
+.btn-primary:hover {
+    width: 200px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #1b7eff;
+    color: #0d0106;
+}
+
+.btn-primary {
+    width: 200px;
+    background-color: #ee4444;
+    border-radius: 25px;
+    border: 2px solid;
+    color: white;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+
+    width: 200px;
+    background-color: #1b7eff;
+    border-radius: 25px;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    width: 200px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 3px solid #ee4444;
+    color: #ee4444;
+}
+
+/* .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(219, 43, 41, .3);
+} */
+
+.btn-secondary {
+    color: #0d0106;
+    background-color: #fff;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #0d0106;
+    border-color: #0d0106;
+}
+
+.input-group>.input-group-append>.btn,
+.input-group>.input-group-append>.input-group-text,
+.input-group>.input-group-prepend:first-child>.btn:not(:first-child),
+.input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child),
+.input-group>.input-group-prepend:not(:first-child)>.btn,
+.input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+    border: 2px solid;
+    outline: 3px solid black;
+    outline-offset: -2px;
+}
+
+/*CONTACT PAGE*/
+
+a.email {
+    text-decoration: none;
+    color: #ee4444;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.form {
+    margin: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    border-color: #1b7eff;
+    border-width: 1px;
+}
+
+label,
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-color: #1b7eff;
+    border-width: 1px;
+    line-height: 38px;
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+    text-decoration: none;
+
+}
+
+form {
+    position: relative;
+}
+
+fieldset {
+    margin: 5px 14px;
+    padding: 0px 35px;
+    border: none;
+}
+
+input[type=submit],
+input[type=button] {
+    background-color: #ee4444;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    width: initial;
+    position: absolute;
+    left: 34px;
+    margin: 10px 16px;
+    padding: 4px 10px;
+}
+
+section {
+    padding-top: 100px;
+    margin-left: 20%;
+}
+
+.hairline {
+    margin: 0px auto;
+    height: 1px;
+    width: 86%;
+    background-color: #ee4444;
+}
+
+/* FOOTER */
 
 
 /* MODAL */
 
-.subscribe{
-    margin-top:20px;
-margin-bottom:20px;
+.subscribe {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -144,8 +351,6 @@ margin-bottom:20px;
     }
 
     .navbar-brand img {
-        max-width: 120px;
+        max-width: 110px;
     }
-
-    
 }

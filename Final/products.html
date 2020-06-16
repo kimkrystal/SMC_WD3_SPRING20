@@ -13,125 +13,142 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap" rel="stylesheet">
 
-    <!-- Stylesheet-->
+    <!-- FONT AWESOME -->
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+
+    <!-- STYLESHEET-->
     <link href="main.css" rel="stylesheet" type="text/css" />
 
-    <title>MAIN HAWTHORN WORKS</title>
+
+    <title>Big Ben Car Wash</title>
 </head>
 
 <body>
     <header>
-        <!-- NAV START -->
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/logo.png" alt="Main Hawthorn Works Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- NAV LINKS -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="navbar-nav ml-auto">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="nav-item nav-link active" href="index.html">HOME</a></li>
-                        <li><a class="nav-item nav-link" href="about.html">ABOUT</a></li>
-                        <li><a class="nav-item nav-link" href="products.html">PRODUCTS</a></li>
-                        <li><a class="nav-item nav-link" href="team.html">TEAM</a></li>
-                    </ul>
-                </div>
+            <a class="navbar-brand d-lg-none" href="index.html"><img src="BigBenLogo.png" class="" alt="BigBenlogo"></a>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+
+                        <a class="nav-link" href="membership.html">MEMBERSHIP</a>
+                    </li>
+                    <li class="nav-item dropdown show">
+                        <a class="nav-link dropdown-toggle d-flex" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="true">SERVICES
+                            <i class="fas fa-caret-down ml-auto p-2 d-lg-none"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="express.html">EXPRESS WASHES</a>
+                            <a class="dropdown-item" href="fullservice.html">FULL SERVICE</a>
+                            <a class="dropdown-item" href="products.html">ACCESSORIES</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link" href="about.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link" href="products.html">SHOP</a>
+                    </li>
+                    <li class="nav-item d-lg-none"><a href="cart.html"><i class="fa fa-shopping-cart d-lg-none position-relative"><spanclass="cart-badge">0</span></i></a></li>
+
+                </ul>
+
+                <!-- LARGE SCREEN: CHECKOUT BAG -->
+                <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="BigBenLogo.png"
+                        alt="BigBenLogo"></a>
+
+                <ul class="navbar-nav d-none d-lg-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">SHOP</a>
+                    </li>
+                    <li class="nav-item align-self-center position-relative">
+                        <a href="cart.html"><i class="fas fa-shopping-cart"></i><span
+                                class="cart-badge">0</span></i></a>
+
+                    </li>
+                </ul>
             </div>
         </nav>
+        <!-- /END NAVBAR -->
     </header>
 
     <main>
-                <!-- JUMBOTRON -->
-                <div class="jumbotron products jumbotron-fluid bg-static">
-                    <div class="container">
-                        <h1 class="display-4 text-light">Shop Products</h1>
-                    </div>
-                </div>
-                <!-- JUMBOTRON END-->
-        <h2 class="mt-5 py-4 text-center">Browse Our Catalog </h2>
-        <!-- CARDS START-->
-        <div class="container-fluid">
-            <div class="card-deck border-light mb-3">
-                <div class="card">
-                    <img src="assets/office desk.jpg" class="card-img-top"
-                        alt="Office Desk">
-                    <div class="card-body">
-                        <h4 class="card-title">Standing Desks</h4>
-                        <p class="card-text"></p>
-                        <a href="#" class="btn btn-warning text-white">SHOP NOW</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/standing.jpg" class="card-img-top" alt="Standing desk attachment">
-                    <div class="card-body">
-                        <h4 class="card-title">Desk Converters</h4>
-                        <p class="card-text"></p>
-                            <a href="#" class="btn btn-warning text-white">SHOP NOW</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/chair.jpg" class="card-img-top" alt="Office Rolling Chair">
-                    <div class="card-body">
-                        <h4 class="card-title">Chairs & Seating</h4>
-                        <p class="card-text"></p>
-                            <a href="#" class="btn btn-warning text-white">SHOP NOW</a>
-                    </div>
-                </div>
+        <!-- JUMBOTRON -->
+        <div class="jumbotron about jumbotron-fluid bg-static">
+            <div class="container">
+                <h1 class="display-4 text-light">SHOP</h1>
             </div>
         </div>
-        <!-- CARDS 2ND ROW START-->
-        <div class="container-fluid">
-            <div class="card-deck border-light mb-3">
-                <div class="card">
-                    <img src="assets/monitor.jpg" class="card-img-top"
-                        alt="Monitor Arm">
-                    <div class="card-body">
-                        <h4 class="card-title">Monitors</h4>
-                        <p class="card-text"></p>
-                        <a href="#" class="btn btn-warning text-white">SHOP NOW</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/shelf.jpg" class="card-img-top" alt="Office 
-                Shelf Storage">
-                    <div class="card-body">
-                        <h4 class="card-title">Storage</h4>
-                        <p class="card-text"></p>
-                            <a href="#" class="btn btn-warning text-white">SHOP NOW</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/accessory.jpg" class="card-img-top" alt="Raised Desk Shelf">
-                    <div class="card-body">
-                        <h4 class="card-title">Accessories</h4>
-                        <p class="card-text"></p>
-                            <a href="#" class="btn btn-warning text-white">SHOP NOW</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- CARDS END-->
+        <!-- JUMBOTRON END-->
 
+        <div class="card-group mt-5">
+            <!-- <div class="col-12">
+              <h2 class="text-center">Featured Products</h2>
+            </div> -->
+        
+        <div class="col-md-6 py-4">
+          <div class="card h-100">
+              <img src="assets/shop/Ultimate.png" class="card-img-top" alt="Ultimate Membership">
+              <div class="card-body  text-center">
+                <h5 class="card-title">MEGA WASH CLUB MEMBERSHIP </h5>
+                <p class="card-text">$50.00 </p>
+                  <button type="button" class="btn btn-primary col-12 addcart add-to-cart" id="carouselControl">ADD TO CART</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 py-4">
+        <div class="card h-100">
+            <img src="assets/shop/Premium.png" class="card-img-top" alt="Cycle">
+            <div class="card-body text-center">
+              <h5 class="card-title">PLATINUM WASH CLUB MEMBERSHIP</h5>
+              <p class="card-text">$35.00</p>
+                <button type="button" class="btn btn-primary col-12 addcart add-to-cart" id="carouselControl">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 py-4">
+      <div class="card h-100">
+          <img src="assets/shop/Deluxe.png" class="card-img-top" alt="Cycle">
+          <div class="card-body text-center">
+            <h5 class="card-title">GOLD WASH CLUB MEMBERSHIP</h5>
+            <p class="card-text">$25.00</p>
+              <button type="button" class="btn btn-primary col-12 addcart add-to-cart" id="carouselControl">ADD TO CART</button>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-6 py-4">
+    <div class="card h-100">
+        <img src="assets/shop/yellowgc.png" class="card-img-top" alt="Helmet">
+        <div class="card-body text-center">
+          <h5 class="card-title">GIFT CARD</h5>
+          <p class="card-text">$0</p>
+            <button type="button" class="btn btn-primary col-12 addcart add-to-cart" id="carouselControl">ADD TO CART</button>
+        </div>
+    </div>
+  </div>
+  
+          <!-- END FEATURED PRODUCTS -->
+        </div>
     </main>
     <footer>
-        <div class="container-fluid text-center bg-warning">
+        <div class="container-fluid text-center bg-light">
             <div class="row">
                 <div class="col">
                     <p class="pt-2 mb-0"><a href="#">Back to top</a></p>
-                    <div class="socialmedia">
-                        <a href="#">
-                            <div id="instagram"></div>
-                        </a>
-                        <a href="#">
-                            <div id="facebook"></div>
-                        </a>
-                    </div>
-                    <h4>© MAIN HAWTHORN WORKS | ALL RIGHTS RESERVED</h4>
+                    <h4>OPEN DAILY 7AM-7PM. 16490 PARAMOUNT BLVD, PARAMOUNT, CA 90723</h4>
+                    <h5>© Big Ben Express Car Wash| ALL RIGHTS RESERVED</h5>
                 </div>
             </div>
         </div>
@@ -148,7 +165,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
