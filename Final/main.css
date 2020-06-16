@@ -165,6 +165,12 @@ a:hover:not(.active) {
 }
 
 /* JUMBOTRON */
+.home {
+image: url(assets/bubblewater.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
 .about {
     background-image: url(assets/thumbsup.jpg);
     background-size: cover;
