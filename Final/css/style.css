@@ -1,0 +1,117 @@
+.table-pricing ul {
+  list-style: none;
+  padding-left:0;
+  text-align: center;
+  color:#808080;
+  padding:10px;
+  -webkit-transition:0.4s;
+  -moz-transition:0.4s;
+  -ms-transition:0.4s;
+  -o-transition:0.4s;
+  transition:0.4s;
+}
+
+.table-pricing ul li {
+  padding:15px 0;
+  border-bottom:1px solid #e6e6e6;
+}
+
+.table-pricing h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+/* First child */
+
+.standard li:first-child {
+  border-bottom:3px solid #1abc9c; 
+}
+
+.premium li:first-child {
+  border-bottom:3px solid #3498db;
+}
+
+.deluxe li:first-child {
+  border-bottom:3px solid #f39c12; 
+}
+
+.pro li:first-child {
+  border-bottom:3px solid #e74c3c;
+}
+
+/* Last child */
+li:last-child {
+  padding:30px 0 !important;
+  border-bottom:none !important;
+}
+
+
+/* Hover tables */
+.standard:hover,
+.premium:hover,
+.deluxe:hover,
+.pro:hover {
+  background: #f9f9f9;
+  -webkit-transition:0.4s;
+  -moz-transition:0.4s;
+  -ms-transition:0.4s;
+  -o-transition:0.4s;
+  transition:0.4s;
+}
+
+/* Buttons */
+button {
+  padding:10px 20px;
+  color:#fff;
+  border:none;
+  -webkit-transition:0.2s;
+  -moz-transition:0.2s;
+  -ms-transition:0.2s;
+  -o-transition:0.2s;
+  transition:0.2s;
+}
+
+button:hover {
+  opacity: .8;
+  -webkit-transition:0.2s;
+  -moz-transition:0.2s;
+  -ms-transition:0.2s;
+  -o-transition:0.2s;
+  transition:0.2s;
+}
+
+.standard button {
+  background: #1abc9c;
+}
+
+.premium button {
+  background: #3498db;
+}
+
+.deluxe button {
+  background: #f39c12;
+}
+
+.pro button {
+  background: #e74c3c;
+}
+
+.price {
+  font-size:24px;
+  font-weight: bold;
+}
+
+.price span {
+  font-size: 12px;
+}
+
+.popular {
+  font-size: 18px;
+  background: #f9f9f9;
+}
+
+.popular .price {
+  font-size: 30px;
+}
+
